@@ -1,5 +1,8 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
-export default props => (
+const Category = props => (
   <h1>Category</h1>
 )
+
+export default withRouter(Category)
